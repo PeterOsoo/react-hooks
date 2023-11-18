@@ -3,7 +3,7 @@ import Count from "./Count"
 import Button from "./Button"
 import Title from "./Title"
 
-function ParentComponent() {
+const ParentComponent = () => {
 	const [age, setAge] = useState(25)
 	const [salary, setSalary] = useState(50000)
 
