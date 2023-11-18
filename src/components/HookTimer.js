@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from "react"
+import  { useState, useEffect, useRef } from "react"
 
-function HookTimer() {
+const HookTimer = () => {
 	const [timer, setTimer] = useState(0)
 	const interValRef = useRef()
 
