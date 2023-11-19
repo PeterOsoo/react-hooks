@@ -1,6 +1,6 @@
 import {useEffect} from 'react'
 
-function useDocumentTitle(count) {
+const useDocumentTitle = (count) => {
   useEffect(() => {
     document.title = `Count ${count}`
   }, [count])
