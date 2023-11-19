@@ -1,7 +1,7 @@
-import React from "react"
+
 import useCounter from "../hooks/useCounter"
 
-function CounterFour() {
+const CounterFour = () => {
 	const [count, increment, decrement, reset] = useCounter(0, 1)
 
 	return (
